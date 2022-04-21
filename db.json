@@ -2,16 +2,44 @@
   "roles": [
     {
       "id": 1,
-      "title": "Intake",
-      "policies": ["Create Cases", "List Cases (Limited)"]
+      "name": "Adminstrator",
+      "policies": ["Manage All", "Manage Permissions"]
     },
     {
       "id": 2,
-      "title": "Director"
+      "name": "Intake",
+      "description": "General role use by intake personnel",
+      "policies": [
+        "Create Cases",
+        "List Cases (Limited)",
+        "Create Permissions (Limited)"
+      ]
     },
     {
       "id": 3,
-      "title": "Case Manager"
+      "name": "Read Only",
+      "description": "General role used primarily by attorneys",
+      "policies": ["List All"]
+    },
+    {
+      "id": 4,
+      "name": "Parralegal",
+      "description": "Role assigned to all parralegals",
+      "policies": [
+        "Create Cases",
+        "List Cases (Limited)",
+        "Manage Cases (Limited)"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Drew Jones",
+      "description": "Specific role created for auditor",
+      "policies": [
+        "Create Cases",
+        "List Cases (Limited)",
+        "Create Permissions (Limited)"
+      ]
     }
   ]
 }
