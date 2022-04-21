@@ -1,0 +1,17 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "title": "Intake",
+      "policies": ["Create Cases", "List Cases (Limited)"]
+    },
+    {
+      "id": 2,
+      "title": "Director"
+    },
+    {
+      "id": 3,
+      "title": "Case Manager"
+    }
+  ]
+}
