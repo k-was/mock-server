@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Adminstrator",
+      "description": "Zero level user",
       "policies": ["Manage All", "Manage Permissions"]
     },
     {
